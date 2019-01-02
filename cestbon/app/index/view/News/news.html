@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="__STATIC__/home/css/news.css">
+<!--加载头部 -->
+{include file="common/head"}
+<div class="container-fluid">
+	<div class="row title">
+		<div>{$data.title}</div>
+	</div>
+	<div class="row time">
+		<div>{$data.time|date='Y-m-d',###}</div>
+	</div>
+	<div class="row content">
+		<div>{$data.content}</div>
+	</div>
+</div>
+<script type="text/javascript">
+	
+</script>
+<!-- 加载底部 -->
+{include file="common/foot"}

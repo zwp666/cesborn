@@ -1,0 +1,97 @@
+<link rel="stylesheet" type="text/css" href="__STATIC__/home/css/index.css">
+<!--加载头部 -->
+{include file="common/head"}
+<!--轮播 -->
+<div id="myCarousel" class="carousel slide pc">
+        <ol class="carousel-indicators">
+            <li data-target = '#myCarousel' data-slide-to = "0" class="active"></li>
+            <li data-target = '#myCarousel' data-slide-to = "1"></li>
+            <li data-target = '#myCarousel' data-slide-to = "2"></li>
+            <li data-target = '#myCarousel' data-slide-to = "3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="__STATIC__/home/images/index/1.png" alt="1" />
+            </div>
+            <div class="item">
+                <img src="__STATIC__/home/images/index/2.png" alt="2" />
+            </div>
+            <div class="item">
+                <img src="__STATIC__/home/images/index/3.png" alt="3" />
+            </div>
+            <div class="item">
+                <img src="__STATIC__/home/images/index/4.png" alt="4" />
+            </div>
+        </div>
+</div>
+<div id="myCarouse2" class="carousel slide phone">
+        <ol class="carousel-indicators">
+            <li data-target = '#myCarouse2' data-slide-to = "0" class="active"></li>
+            <li data-target = '#myCarouse2' data-slide-to = "1"></li>
+            <li data-target = '#myCarouse2' data-slide-to = "2"></li>
+            <li data-target = '#myCarouse2' data-slide-to = "3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="__STATIC__/home/images/index/1.png" alt="1" />
+            </div>
+            <div class="item">
+                <img src="__STATIC__/home/images/index/2.png" alt="2" />
+            </div>
+            <div class="item">
+                <img src="__STATIC__/home/images/index/3.png" alt="3" />
+            </div>
+            <div class="item">
+                <img src="__STATIC__/home/images/index/4.png" alt="4" />
+            </div>
+        </div>
+</div>
+<!-- 品牌 -->
+<div class="container border">
+	<div class="row brand_title border">旗下品牌</div>
+	<div class="row brand_banner border">
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+		<div class="col-lg-3"><img src="__STATIC__/home/images/index/cocovel.png" class="border"></div>
+	</div>
+</div>
+<div class="margin_top_65"><img src="__STATIC__/home/images/index/4.png"></div>
+<!-- 新闻 -->
+<div class="container border">
+	<div class="row news_title border">新闻</div>
+	<div class="row news_main border">
+		<div>
+			<span>2018年12月18日14:23:51</span>
+			<span>品牌</span>
+		</div>
+		<div>
+			我了对方是否健康三等奖
+		</div>
+		
+	</div>
+	<div class="row news_main border">
+		<div>
+			<span>2018年12月18日14:23:51</span>
+			<span>品牌</span>
+		</div>
+		<div>
+			我了对方是否健康三等奖
+		</div>
+		
+	</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+        $('#myCarousel').carousel({interval:4000});
+    })
+    $(function(){
+        $('#myCarouse2').carousel({interval:4000});
+    })
+</script>
+<!-- 加载底部 -->
+{include file="common/foot"}
